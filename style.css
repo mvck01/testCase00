@@ -1,0 +1,515 @@
+/* Universal styles */
+body{
+    margin: 0;
+    padding: 0;
+}
+.mainFooter_hyp {
+    padding: 5px 8px;
+    margin: 0px auto;
+    width: 1140px;  
+    height: 100%;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    color: #54595f;
+    font-size: 1rem;
+}        
+
+h2 {
+    font-size: 2.806rem;
+    font-weight: 500;
+}
+
+h5 {
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+h4 {
+    font-size: 1.6rem;
+    font-weight: 500;
+}
+h3{
+    font-size: 2rem;
+}
+/* Call Section */
+
+.callSection_hyp {
+    background: #fedc32;
+    height: 100%;
+    width: 100%;
+    padding: 1rem 1rem;
+}
+
+.yellowSection_hyp {
+    text-transform: uppercase;
+    text-align: center;
+    color: #54595f;
+    font-size: 44.8px;
+    font-weight: 500;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+/* Manage Section */
+.manageSection_hyp {
+    margin-top: 8rem;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: row;
+}
+
+.imgSection_hyp,
+.contentSection_hyp {
+    width: 100%
+}
+.appStoreLogo, .gplayLogo{
+    cursor: pointer;
+}
+
+.mainhead_hyp {
+    font-weight: 500;
+    margin-bottom: 1rem;
+}
+.subhead_hyp{
+    font-weight: 600;
+    margin-top: 1rem;
+}
+.contentList_hyp {
+    border: 0;
+    outline: 0;
+    font-size: 16px;
+    vertical-align: baseline;
+    background: transparent;
+    text-align: left;
+    margin: 1rem auto;
+}
+.contentList_hyp li{
+    margin: .4rem 0;
+}
+
+.manageImg_hyp {
+    margin-top: 1rem;
+    display: flex;
+    gap: 2rem;
+}
+
+/* Marketing Section */
+.marketingTools_hyp {
+    margin: 8rem auto 0 auto;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.marketingMrg_hyp {
+    margin: 1rem 0;
+    font-weight: 530;
+}
+
+.marketingLinks_hyp {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    margin-top: 3rem;
+}
+
+.link1_hyp,
+.link2_hyp,.link3_hyp {
+    display: flex;
+    flex-direction: row;
+    gap: 1.3rem;
+    justify-content: center;
+    margin: 0.5rem auto;
+}
+
+.link1_hyp a, .link2_hyp a, .link3_hyp a{
+    text-decoration: none;
+
+}
+
+.roundedButton_hyp{
+    padding: 15px;
+    border: none;
+    border-radius: 40px;
+    background-color: #fedc32;
+    color: #000000;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.roundedButton_hyp:hover {
+    transform: scale(1.2);
+}
+
+/* Replace Section */
+.replaceSection_hyp {
+    margin-top: 8rem;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.bannerImg_hyp {
+    width: 100%;
+    object-fit: cover;
+    margin: 0 auto;
+}
+
+/* Why Hype Studio Section */
+.whyHype_hyp {
+    margin-top: 8rem;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+
+.whySection_hyp {
+    font-size: 16px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.col_hyp {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    padding: 1rem;
+}
+
+.fontImg_hyp {
+    align-items: start;
+    display: flex;
+    justify-content: center;
+}
+
+.fontImg_hyp i {
+    margin: 3rem 0;
+    width: 100%;
+    font-size: 4rem;
+}
+
+/* Compatible with Section */
+.combaptibleSection_hyp {
+    margin-top: 8rem;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+
+.cptbible_hyp{
+    margin-top: 2rem;
+}
+
+/* Review Section */
+.row_hyp {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+.innerrev_hyp {
+    display: flex;
+    flex-direction: row;
+}
+
+.review_hyp{
+    padding: 1rem;
+    font-size: 14px ;
+    font-style: italic;
+    text-align: left;
+}
+
+.reviewCon_hyp {
+    display: flex;
+    flex-direction: row;
+}
+
+.reviewImg_hyp {
+    margin-top: 0.8rem;
+    width: 4rem;
+    height: 4rem;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.reviewImg_hyp img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.reviewName_hyp {
+    margin-top: 1.7rem;
+    margin-left: 2rem;
+}
+
+/* Client Logo */
+.clientsLogo {
+    margin-top: 8rem;
+}
+
+.logoLand_hyp {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.colLogo {
+    width: 180px;
+    height: 100px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.colLogo img {
+    max-width: 100%;
+    max-height: 100%;
+    transition: transform 0.3s ease;
+    cursor: pointer;
+}
+
+.colLogo:hover img {
+    transform: scale(1.2);
+}
+
+/* Last footer */
+.lastFooter_hyp {
+    background-color: black;
+    margin: 1rem auto;
+    padding: 1rem;
+}
+
+.lastFooterCon_hyp {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    gap: 0.6rem;
+    
+}
+
+.innerText_hyp {
+    margin: 0.3rem auto;
+    font-style: italic;
+    color: #ffffff;
+    font-size: 16px;
+    margin: .5rem auto;
+}
+.innerConLogo{
+    display: flex;
+    flex-direction: row;
+}
+.iconLogo{
+    margin-left: 2rem;
+    margin-top: 0.8rem;
+}
+
+
+.conLogo_hyp {
+    width: 280px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+.innergetCon_hyp {
+    display: flex;
+    flex-direction: column;
+}
+
+.innerSocialLogo_hyp {
+    display: flex;
+    flex-direction: row;
+    gap: 1.2rem;
+}
+.contentText_hyp{
+    font-size: 22.4px;
+    font-family: "Nunito", sans-serif;
+    color: #ffffff; padding: .5rem 0;
+    font-weight: 700;
+
+}
+.logos_hyp img {
+    width: 35px;
+    height: 100%;
+    object-fit: contain;
+    cursor: pointer;
+}
+
+/* Last Footer Ends Here */
+
+
+
+/* Media Queries Start Here */
+
+
+@media screen and (max-width: 768px) {
+   /* footer Section */
+    footer {
+        padding: 5px 8px;
+        margin: 5px auto;
+        width: 740px;
+        max-width: 100%;
+        height:100%;
+    }
+    .link1_hyp,.link2_hyp,.link3_hyp{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    /* End of Footer Section */
+
+    /* ManageSection starts */
+
+    .manageSection_hyp{
+        margin-top: 8rem;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-evenly;
+        gap: 1rem;
+       
+    }
+    .imgHere_hyp{
+        width: 100%;
+        height: fit-content;
+    }
+    
+    .imgSection_hyp{
+        margin: 0 auto;
+        width: 100%;
+    }
+    .contentSection_hyp{
+        margin: 0 auto;
+        padding: 1rem;
+        width: 600px;
+    }
+    .appStoreLogo, .gplayLogo{
+        width: 40%;
+        height: 100%;
+    }
+    /* Manage Section Ends  */
+
+    /* Marketing tools section Starts */
+    .marketingTools_hyp{
+        margin-top: 8rem;
+    }
+    .roundedButton_hyp {
+        padding: 10px;
+        border: none;
+        border-radius: 40px;
+        background-color: #fedc32;
+        color: #000000;
+        font-size: 14px;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+    }
+    /* End of Marketing tools section */
+    /* Rplace Section Starts */
+    .replaceSection_hyp{
+        height: auto;
+    }
+    /* End of replace section */
+
+    /* Start of why Hype Studio */
+
+    /* End of why Hype Studio */
+
+    /* Start of compatible Section */
+    .combaptibleSection_hyp{
+        margin-top: 7rem;
+    }
+    .cptbible_hyp{
+        width: 100%;
+        height: 100%;
+    }
+    /* End of compatible Section */
+
+    /* Start of google Review Section */
+    .row_hyp{
+        display: flex;
+        flex-direction: column;
+    }
+    /* End of Google Review Section */
+
+    /* Start of Clients Logo */
+    /* End of Clients Logo */
+
+    /* Start of LastFooter */
+    /* End of LastFooter */
+
+}
+
+@media screen and (max-width: 480px) {
+    .whySection_hyp{
+        display: flex;
+        flex-direction: column;
+    }
+    .lastFooterCon_hyp{
+        display: flex;
+        flex-direction: column;
+    }
+    .yellowSection_hyp{
+        padding: .05rem;
+    }
+    /* Manage Section Start */
+
+    .manageSection_hyp{
+        display: flex;
+        flex-direction: column;
+        border: 1px solid red;
+    }
+    .contentSection_hyp{
+        display: flex;
+        flex-direction: column;
+
+    }
+    .manageImg_hyp{
+        display: flex;
+        flex-direction: column;
+    }
+    .manageImg_hyp img{
+        width: 30%;
+        height: 100%;
+    }
+
+    /* Manage Section End */
+    
+    .imgSection_hyp{
+        display: block;
+    }
+    .innergetCon_hyp{
+        margin-left: 2.3rem;
+    }
+    .marketingHeaders{
+        padding: .5rem;
+    }
+    .iconLogo{
+        border: 1px solid red;
+        margin-top: 1.8rem;
+    }
+}
+
+
+
+/* Media Queries End Here */
